@@ -1,0 +1,105 @@
+.logo {
+  display: block;
+  margin: 8px auto;
+  height: 50px;
+  border-radius: 400px;
+}
+
+.continer {
+  height: 75vh;
+  border: 3px ridge darkblue;
+  border-radius: 6px 6px 0 0;
+  /* background-image: linear-gradient(lightgrey,goldenrod); */
+  background-color: lightskyblue;
+  padding: 5px;
+  overflow: auto;
+  margin: auto;
+  /* position: relative; */
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+@media screen and (min-width: 700px) {
+  .continer {
+    max-width: 60vw;
+    height: 60vh;
+  }
+  .send-container {
+    width: 60vw;
+  }
+}
+
+.message {
+  width: fit-content;
+  min-width: 11%;
+  max-width: 70%;
+  height: auto;
+  margin: 7px;
+  padding: 5px 7px;
+  clear: both;
+}
+.left {
+  background-color: ghostwhite;
+  float: left;
+  border-radius: 0px 12px 12px 12px;
+}
+.right {
+  background-color: rgb(224, 255, 152);
+  float: right;
+  border-radius: 12px 0px 12px 12px;
+}
+.server_message {
+  padding: 4px 7px;
+  margin: 5px auto;
+  background-color: rgb(211, 211, 211);
+  font-size: smaller;
+  font-weight: lighter;
+  border-radius: 30px;
+}
+.btn {
+}
+.send-container {
+  margin: auto;
+  text-align: left;
+  border: 3px ridge darkblue;
+  padding: 5px;
+  border-radius: 0 0 7px 7px;
+  /* padding-top: 0%; */
+  height: 30px;
+  background-color: royalblue;
+  border-top: 0;
+}
+.send-container input {
+  height: 27px;
+  border-right: 0;
+  margin-right: 0;
+  float: left;
+  width: 70%;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  border-radius: 6px 0 0 6px;
+}
+.send-container button {
+  height: 27px;
+  color: white;
+  background-color: olivedrab;
+  border-radius: 0px 12px 12px 0px;
+  border-left: 0;
+  margin-left: 0;
+  float: left;
+  font-weight: bold;
+  width: 55px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 700px) {
+  .send-container input {
+    width: 32vw;
+  }
+}
+body {
+  height: 100vh;
+  background-color: slategray;
+  background-image: linear-gradient(ghostwhite 5%, rgb(0, 15, 58));
+}
